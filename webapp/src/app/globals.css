@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020617;
+  --foreground: #f8fafc;
+}
+
+body {
+  color: var(--foreground);
+  background:
+    radial-gradient(120% 120% at 50% 0%, rgba(30, 64, 175, 0.35), transparent),
+    radial-gradient(100% 100% at 0% 50%, rgba(236, 72, 153, 0.2), transparent),
+    #020617;
+  font-family: var(--font-sora), var(--font-geist-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
